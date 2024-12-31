@@ -14,7 +14,7 @@ const TransactionDetails = () => {
 
   useEffect(() => {
     if (id) {
-      fetch(`/public/data.json`)
+      fetch('/data.json')
         .then((res) => res.json())
         .then((data) => {
           const transaction = data.find(

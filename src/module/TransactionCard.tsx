@@ -13,7 +13,7 @@ const TransactionCard: FC = () => {
   const dailyPoints = calculateDailyPoints(3);
 
   useEffect(() => {
-    fetch('/public/data.json')
+    fetch('/data.json')
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load data');
         return res.json();
