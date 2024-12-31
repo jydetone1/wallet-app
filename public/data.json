@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "type": "Payment",
+    "amount": 200,
+    "name": "IKEA",
+    "description": "Furniture shopping",
+    "date": "2023-12-28",
+    "pending": true,
+    "authorizedUser": "Alice",
+    "time": "12:00"
+  },
+  {
+    "id": 2,
+    "type": "Credit",
+    "amount": 500,
+    "name": "Target",
+    "description": "Groceries",
+    "date": "2023-12-27",
+    "pending": false,
+    "authorizedUser": "",
+    "time": "12:00"
+  },
+  {
+    "id": 3,
+    "type": "Payment",
+    "amount": 120,
+    "name": "Apple",
+    "description": "iPhone purchase",
+    "date": "2023-12-26",
+    "pending": true,
+    "authorizedUser": "John",
+    "time": "12:47"
+  },
+  {
+    "id": 4,
+    "type": "Credit",
+    "amount": 300,
+    "name": "Walmart",
+    "description": "Household supplies",
+    "date": "2023-12-25",
+    "pending": false,
+    "authorizedUser": "",
+    "time": "13:00"
+  },
+  {
+    "id": 5,
+    "type": "Payment",
+    "amount": 400,
+    "name": "Best Buy",
+    "description": "Electronics purchase",
+    "date": "2023-12-24",
+    "pending": false,
+    "authorizedUser": "Emma",
+    "time": "14:00"
+  },
+  {
+    "id": 6,
+    "type": "Credit",
+    "amount": 900,
+    "name": "Whole Foods",
+    "description": "Organic groceries",
+    "date": "2023-12-23",
+    "pending": true,
+    "authorizedUser": "",
+    "time": "15:00"
+  },
+  {
+    "id": 7,
+    "type": "Payment",
+    "amount": 250,
+    "name": "Costco",
+    "description": "Bulk shopping",
+    "date": "2023-12-22",
+    "pending": false,
+    "authorizedUser": "Sophia",
+    "time": "16:00"
+  },
+  {
+    "id": 8,
+    "type": "Credit",
+    "amount": 750,
+    "name": "CVS",
+    "description": "Pharmacy items",
+    "date": "2023-12-21",
+    "pending": false,
+    "authorizedUser": "",
+    "time": "17:00"
+  },
+  {
+    "id": 9,
+    "type": "Payment",
+    "amount": 180,
+    "name": "Home Depot",
+    "description": "DIY materials",
+    "date": "2023-12-20",
+    "pending": true,
+    "authorizedUser": "Liam",
+    "time": "18:00"
+  },
+  {
+    "id": 10,
+    "type": "Credit",
+    "amount": 600,
+    "name": "McDonald's",
+    "description": "Fast food",
+    "date": "2023-12-19",
+    "pending": false,
+    "authorizedUser": "",
+    "time": "19:00"
+  },
+  {
+    "id": 11,
+    "type": "Payment",
+    "amount": 950,
+    "name": "Netflix",
+    "description": "Monthly subscription",
+    "date": "2023-12-18",
+    "pending": false,
+    "authorizedUser": "Oliver"
+  },
+  {
+    "id": 12,
+    "type": "Credit",
+    "amount": 120,
+    "name": "Amazon",
+    "description": "Online shopping",
+    "date": "2023-12-17",
+    "pending": false,
+    "authorizedUser": ""
+  },
+  {
+    "id": 13,
+    "type": "Payment",
+    "amount": 300,
+    "name": "Tesla",
+    "description": "Car payment",
+    "date": "2023-12-16",
+    "pending": true,
+    "authorizedUser": "Charlotte"
+  },
+  {
+    "id": 14,
+    "type": "Credit",
+    "amount": 150,
+    "name": "Spotify",
+    "description": "Music subscription",
+    "date": "2023-12-15",
+    "pending": false,
+    "authorizedUser": ""
+  },
+  {
+    "id": 15,
+    "type": "Payment",
+    "amount": 500,
+    "name": "Starbucks",
+    "description": "Coffee shop",
+    "date": "2023-12-14",
+    "pending": false,
+    "authorizedUser": "Amelia"
+  },
+  {
+    "id": 16,
+    "type": "Credit",
+    "amount": 850,
+    "name": "Sephora",
+    "description": "Cosmetics",
+    "date": "2023-12-13",
+    "pending": true,
+    "authorizedUser": ""
+  },
+  {
+    "id": 17,
+    "type": "Payment",
+    "amount": 220,
+    "name": "Gap",
+    "description": "Clothing purchase",
+    "date": "2023-12-12",
+    "pending": false,
+    "authorizedUser": "Benjamin"
+  },
+  {
+    "id": 18,
+    "type": "Credit",
+    "amount": 400,
+    "name": "Domino's Pizza",
+    "description": "Dinner",
+    "date": "2023-12-11",
+    "pending": true,
+    "authorizedUser": ""
+  },
+  {
+    "id": 19,
+    "type": "Payment",
+    "amount": 150,
+    "name": "Uber",
+    "description": "Ride services",
+    "date": "2023-12-10",
+    "pending": false,
+    "authorizedUser": "Elijah"
+  },
+  {
+    "id": 20,
+    "type": "Credit",
+    "amount": 550,
+    "name": "7-Eleven",
+    "description": "Convenience store",
+    "date": "2023-12-09",
+    "pending": false,
+    "authorizedUser": ""
+  }
+]
