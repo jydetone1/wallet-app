@@ -27,7 +27,6 @@ export const calculateDailyPoints = (dayOfSeason: number): string => {
     points >= 1000
       ? `${Math.round(points / 1000)}K`
       : Math.round(points).toString();
-  console.log(dayOfSeason, pointsString);
 
   memo[dayOfSeason] = pointsString;
 
@@ -52,7 +51,7 @@ export const getDayOfSeason = (date: Date): number => {
         : moment(`${year}-12-01`).startOf('day');
   }
 
-  const currentDate = moment(date);
+  const currentDate = moment(date).startOf('day');
   return currentDate.diff(seasonStart, 'days') + 1;
 };
 
