@@ -58,7 +58,7 @@ const TransactionCard: FC = () => {
       <h1 className='text-black text-2xl font-bold mb-2 leading-none'>
         {transactionTexts.latestTransaction}
       </h1>
-      <section className='bg-white rounded-lg '>
+      <section className='bg-white rounded-lg'>
         {transactions.slice(0, 10).map((transaction) => (
           <LatestTransaction key={transaction.id} {...transaction} />
         ))}

@@ -30,6 +30,7 @@ const TransactionDetails = () => {
   }, [navigation]);
 
   const displayDate = moment(transaction?.date).format('M/D/YY');
+
   return (
     <div className='p-4 block md:hidden'>
       <img
