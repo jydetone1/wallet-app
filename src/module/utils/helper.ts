@@ -26,6 +26,10 @@ export const calculateDailyPoints = (dayOfSeason: number): string => {
     : Math.round(points).toString();
 };
 
+export const getCurrentDayOfMonth = (): number => {
+  return new Date().getDate();
+};
+
 export const Icons = [
   {
     name: 'Apple',

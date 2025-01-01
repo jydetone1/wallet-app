@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from 'react';
 import check from '../assets/check.svg';
 import { ILatestTransaction } from './LatestTransaction';
-import { calculateDailyPoints } from './utils/helper';
+import { calculateDailyPoints, getCurrentDayOfMonth } from './utils/helper';
 import { transactionTexts } from './utils/texts';
 import LatestTransaction from './LatestTransaction';
 
@@ -10,7 +10,8 @@ const TransactionCard: FC = () => {
   const [transactions, setTransactions] = useState<ILatestTransaction[]>([]);
   const [cardBalance, setCardBalance] = useState(0);
   const available = limit - cardBalance;
-  const dailyPoints = calculateDailyPoints(3);
+  const currentDay = getCurrentDayOfMonth();
+  const dailyPoints = calculateDailyPoints(currentDay);
 
   useEffect(() => {
     fetch('/data.json')
