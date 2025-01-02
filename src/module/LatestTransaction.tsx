@@ -34,7 +34,7 @@ const LatestTransaction: FC<ILatestTransaction> = ({
   return (
     <div>
       <Link to={`/transaction-details/${id}`}>
-        <div className='flex gap-4 p-3  '>
+        <div className='flex gap-4 p-3'>
           <div className='h-11 w-11 rounded-md flex justify-center items-center bg-black p-3'>
             {displayIcon?.icon ? (
               <img
@@ -53,7 +53,7 @@ const LatestTransaction: FC<ILatestTransaction> = ({
               <h2 className='text-black text-lg font-semibold leading-none'>
                 {type === 'Payment' ? 'Payment' : name}
               </h2>
-              <p className='text-slate-500 text-base font-normal '>
+              <p className='text-slate-500 text-base font-normal'>
                 {pending ? 'Pending -' : ''} {description}
               </p>
               <p className='text-slate-500 text-base font-normal leading-none'>
@@ -70,7 +70,7 @@ const LatestTransaction: FC<ILatestTransaction> = ({
                 <img
                   src={menuRight as string}
                   alt='menu-right'
-                  className='w-[16px] h-[16px] min-w-4 '
+                  className='w-[16px] h-[16px] min-w-4'
                 />
               </div>
               <div
@@ -78,7 +78,7 @@ const LatestTransaction: FC<ILatestTransaction> = ({
                   type === 'Payment' ? '' : 'bg-slate-100'
                 }`}
               >
-                <p className='text-slate-500 text-sm font-normal leading-none '>
+                <p className='text-slate-500 text-sm font-normal leading-none'>
                   {type === 'Payment' ? '' : '3%'}
                 </p>
               </div>

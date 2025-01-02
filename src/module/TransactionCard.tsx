@@ -28,7 +28,7 @@ const TransactionCard: FC = () => {
   return (
     <section className='p-3 block md:hidden'>
       <section className='grid grid-cols-3 gap-3 mb-7'>
-        <div className='col-span-2 row-start-1 bg-white rounded-lg p-4 flex flex-col gap-2 h-fit '>
+        <div className='col-span-2 row-start-1 bg-white rounded-lg p-4 flex flex-col gap-2 h-fit'>
           <h2 className='text-black font-normal text-base leading-none'>
             {transactionTexts.cardBalance}
           </h2>
@@ -37,13 +37,13 @@ const TransactionCard: FC = () => {
             ${available} {transactionTexts.available}
           </p>
         </div>
-        <div className='col-span-2 row-start-2 bg-white rounded-lg px-4 flex flex-col justify-center items-start  h-[110px] '>
+        <div className='col-span-2 row-start-2 bg-white rounded-lg px-4 flex flex-col justify-center items-start h-[110px]'>
           <h2 className='text-black font-normal text-base'>
             {transactionTexts.dailyPoints}
           </h2>
           <p className='text-slate-500 font-normal text-sm'>{dailyPoints}</p>
         </div>
-        <div className='col-start-3 row-span-2 bg-white rounded-lg p-4 flex flex-col justify-between  h-[240px]'>
+        <div className='col-start-3 row-span-2 bg-white rounded-lg p-4 flex flex-col justify-between h-[240px]'>
           <h2 className='flex-auto text-black font-normal text-base truncate'>
             {transactionTexts.noPaymentDue} <br />
             <span className='text-slate-500 font-normal text-sm'>
