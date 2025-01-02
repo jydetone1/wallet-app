@@ -44,7 +44,7 @@ const TransactionDetails = () => {
           <p className='text-black font-bold text-6xl leading-none'>
             ${transaction?.amount}
           </p>
-          <div className=''>
+          <div>
             <p className='text-slate-500 font-normal text-base leading-none mb-1'>
               {transaction?.name}
             </p>
