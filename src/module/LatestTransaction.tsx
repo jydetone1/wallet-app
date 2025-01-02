@@ -65,7 +65,9 @@ const LatestTransaction: FC<ILatestTransaction> = ({
             <div className='flex flex-col gap-1 justify-start items-center text-center'>
               <div className='flex items-start justify-start gap-2'>
                 <h2 className='text-black text-lg font-semibold leading-none'>
-                  {type === 'Payment' ? `+$${amount}` : `$${amount}`}
+                  {type === 'Payment'
+                    ? `+$${amount.toFixed(2)}`
+                    : `$${amount.toFixed(2)}`}
                 </h2>
                 <img
                   src={menuRight as string}

@@ -42,7 +42,7 @@ const TransactionDetails = () => {
       <div className='flex justify-center items-center text-center mb-7'>
         <div className='flex flex-col gap-2'>
           <p className='text-black font-bold text-6xl leading-none'>
-            ${transaction?.amount}
+            ${transaction?.amount.toFixed(2)}
           </p>
           <div>
             <p className='text-slate-500 font-normal text-base leading-none mb-1'>

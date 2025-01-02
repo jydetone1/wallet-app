@@ -32,7 +32,9 @@ const TransactionCard: FC = () => {
           <h2 className='text-black font-normal text-base leading-none'>
             {transactionTexts.cardBalance}
           </h2>
-          <p className='text-black font-bold text-4xl'>${cardBalance}</p>
+          <p className='text-black font-bold text-4xl'>
+            ${cardBalance.toFixed(2)}
+          </p>
           <p className='text-slate-500 font-normal text-sm leading-none'>
             ${available} {transactionTexts.available}
           </p>
