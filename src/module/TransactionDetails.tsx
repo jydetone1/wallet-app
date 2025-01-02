@@ -68,7 +68,7 @@ const TransactionDetails = () => {
             {transactionTexts.total}
           </p>
           <p className='text-black font-bold text-base leading-none'>
-            ${transaction?.amount}
+            ${transaction?.amount.toFixed(2)}
           </p>
         </div>
       </div>
